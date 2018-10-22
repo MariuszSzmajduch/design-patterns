@@ -1,10 +1,10 @@
 package behavioural.strategy;
 
-public class AnotherFeatureOneWrapper implements ExtractedFeatureOne {
+public class AnotherFeatureOneWrapper implements ExtractedFeatureTwo {
 
 	@Override
-	public void feature1() {
-		System.out.println("another feature 1");
+	public void feature() {
+		System.out.println("another feature 2");
 
 	}
 

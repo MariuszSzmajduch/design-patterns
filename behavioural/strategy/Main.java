@@ -8,36 +8,12 @@ package behavioural.strategy;
  *
  */
 public class Main {
-	//TODO - design 2 child classes and demonstrate runtime 
-	// behaviour change
 	
+	ExtractedFeatureOne efo;
+	ExtractedFeatureTwo eft;
 	
-	private ExtractedFeatureOne efo;
-	private ExtractedFeatureTwo eft;
-	
-	public Main() {
-		efo = new FeatureOneWrapper();
-		eft = new FeatureTwoWrapper();
-	}
-	
-	public ExtractedFeatureOne getEfo() {
-		return efo;
-	}
-
-
-
-	public void setEfo(ExtractedFeatureOne efo) {
-		this.efo = efo;
-	}
-
-
-
-	public ExtractedFeatureTwo getEft() {
-		return eft;
-	}
-
-
-
+	public Main() {}
+		
 	public void shared() {
 		System.out.println("shared feature");
 	}

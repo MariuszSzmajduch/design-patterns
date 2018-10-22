@@ -8,5 +8,5 @@ package behavioural.strategy;
  */
 public interface ExtractedFeatureTwo {
 
-	public void feature1();
+	public void feature();
 }
