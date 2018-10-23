@@ -1,4 +1,4 @@
-package behavioural.strategy;
+package behavioural.strategy.canonical;
 
 /**
  * Driver class demonstrating proper implementation of Strategy Pattern.

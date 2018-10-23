@@ -1,4 +1,4 @@
-package behavioural.strategy;
+package behavioural.strategy.canonical;
 
 /**
  * Roots second family of features.

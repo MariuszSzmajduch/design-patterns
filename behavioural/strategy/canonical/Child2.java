@@ -1,4 +1,4 @@
-package behavioural.strategy;
+package behavioural.strategy.canonical;
 
 /**
  * This class implements feature 2 and changes its behaviour in runtime.

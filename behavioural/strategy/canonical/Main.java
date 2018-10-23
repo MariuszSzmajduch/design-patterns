@@ -1,4 +1,4 @@
-package behavioural.strategy;
+package behavioural.strategy.canonical;
 
 /**
  * This project is a simple application of Strategy Pattern.

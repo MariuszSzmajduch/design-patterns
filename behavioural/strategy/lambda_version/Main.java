@@ -1,4 +1,4 @@
-package behavioural.strategy_lambda_version;
+package behavioural.strategy.lambda_version;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package behavioural.strategy_lambda_version;
+package behavioural.strategy.lambda_version;
 
 /**
  * This class implements feature 2.

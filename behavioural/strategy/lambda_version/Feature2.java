@@ -1,4 +1,4 @@
-package behavioural.strategy_lambda_version;
+package behavioural.strategy.lambda_version;
 
 /**
  * Roots second family of features.

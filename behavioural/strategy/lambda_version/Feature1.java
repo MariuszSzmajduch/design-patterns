@@ -1,4 +1,4 @@
-package behavioural.strategy;
+package behavioural.strategy.lambda_version;
 
 
 /**
@@ -7,7 +7,7 @@ package behavioural.strategy;
  * @author jo
  *
  */
-public interface ExtractedFeatureOne {
+public interface Feature1 {
 	
 	public void feature1();
 
