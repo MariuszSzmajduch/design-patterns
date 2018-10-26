@@ -7,11 +7,20 @@ package behavioural.strategy.lambda_version;
  *
  */
 public final class Child1 extends Main {
-	Feature1 f;  // cherry-pick
+	Feature f;
 	
 	public Child1() { this.setVersion(this.featuresA.get(0)); }
 	
-	public void setVersion(Feature1 f) { this.f = f; }    
+	/**
+	 * Sets behaviour of Child1
+	 * 
+	 * @param f - a behaviour definition
+	 */
+	public void setVersion(Feature f) { this.f = f; }    
 
-	public void feature() { this.f.feature1(); }
+	/**
+	 * This is the method that does the expected behaviour
+	 * 
+	 */
+	public void feature() { this.f.feature(); }
 }

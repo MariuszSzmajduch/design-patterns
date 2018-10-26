@@ -14,11 +14,11 @@ import java.util.List;
  */
 public class Main {
 	
-	List<Feature1> featuresA = Arrays.asList(
+	List<Feature> featuresA = Arrays.asList(
 			() -> System.out.println("feature 1.0"),
 			() -> System.out.println("feature 1.1")
 			);
-	List<Feature2> featuresB = Arrays.asList(
+	List<Feature> featuresB = Arrays.asList(
 			() -> System.out.println("feature 2.0")
 			);
 			

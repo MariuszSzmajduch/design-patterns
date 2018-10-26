@@ -2,7 +2,9 @@ package behavioural.strategy.lambda_version;
 
 /**
  * Driver class demonstrating proper implementation of Strategy Pattern.
+ * Tested. Works as expected.
  * 
+ * @date 23.11.2018
  * @author jo
  *
  */
